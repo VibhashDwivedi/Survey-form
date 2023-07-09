@@ -1,0 +1,82 @@
+.main
+{
+
+
+background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+width: 100%;
+height: 100%;
+
+
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+
+}
+.container
+{
+    margin-top: 45px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Popins' sans-serif;
+}
+#description{
+    font-style: italic;
+}
+#survey-form
+{
+    background-color: rgba(0, 0, 21, 0.816) ;
+    display: block;
+    width:auto;
+
+    padding: 40px;
+    padding-top: 0px;
+    margin: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}  
+
+#age
+{
+    width:"100%";
+}
+#dropdown
+{
+    width:"500px";
+    margin-top: 0px;
+}
+#submit
+{
+    margin-bottom: 12px;
+}
+.form
+{
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    padding-left: 0px;
+    display: block;
+    
+}
+label{
+    display: flex;
+    padding: 5px;
+    
+}
+
+#name,#email,#number,#dropdown,#submit,#comments
+{
+    width: 100%;
+    min-width: 23px;
+    height: 20px;
+    border:1px solid burlywood;
+}
+#comments
+{
+    min-height: 50px;
+    resize: vertical;
+}
+#submit
+{
+    background-color: #37af65;
+    height:30px;
+    font-family: 'Courier New', Courier, monospace;
+}
